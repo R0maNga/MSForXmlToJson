@@ -1,4 +1,5 @@
 ## Для запуска DataProcessorService:
+- Все должно запуститься сразу, если нет удалить папку миграций попробывать опять и/или перейти к пунктам ниже
 - Создать бд с помощью миграций: Add-Migration название_миграции; Update-Database
 - Поменять название можно appsettings.json "ConnectionStrings": {
     "DefaultConnection": "Data Source=yourName.db"
