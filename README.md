@@ -1,4 +1,3 @@
-# Запустить DataProcessorService и FileProcessorService
 ## Для запуска DataProcessorService:
 - Создать бд с помощью миграций: Add-Migration название_миграции; Update-Database
 - Поменять название можно appsettings.json "ConnectionStrings": {
