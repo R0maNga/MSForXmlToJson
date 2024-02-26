@@ -28,8 +28,6 @@ namespace FileParserService.Services
                 basicProperties: null,
                 body: body);
 
-            Console.WriteLine("Sent message {0}", message);
-
         }
     }
 }
